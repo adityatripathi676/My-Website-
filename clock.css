@@ -1,0 +1,142 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-color: #202124;
+  color: white;
+}
+a {
+  color: white;
+}
+
+.welcome {
+  border-width: 2px;
+  width: 45%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+  left: 10vw;
+  border-radius: 2vw;
+  background:linear-gradient(44deg,#ffffff38,transparent,transparent 100%);
+  margin-top: 5vw;
+  margin-bottom: 6vw;
+  padding-left: 5vw;
+  overflow: hidden;
+}
+.welcome1 {
+  border-width: 2px;
+  width: 45%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+  left: 10vw;
+  border-radius: 2vw;
+  background:linear-gradient(44deg,#ffffff38,transparent,transparent 100%);
+  margin-top: 10px;
+  margin-bottom: 15vw;
+  padding-left: 5vw;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.welcome:hover {
+  background-color: #303134;
+  border-radius: 2vw;
+  position: relative;
+  left: 10vw;
+  background:linear-gradient(44deg,#ffffff33,transparent 75%);
+}
+
+.welcome1:hover {
+  background-color: #303134;
+  border-radius: 2vw;
+  position: relative;
+  left: 10vw;
+  background:linear-gradient(44deg,#ffffff33,transparent 75%);
+}
+
+.welbox {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+/* #clock {
+  font-family: "Share Tech Mono", monospace;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #daf6ff;
+  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+}
+
+#clock .time {
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
+
+#clock .date {
+  letter-spacing: 0.1em;
+  font-size: 24px;
+}
+
+#clock .text {
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  padding: 20px 0 0;
+} */
+
+.navbar {
+  background: rgba(70, 70, 84, 0.5);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  color: aqua;
+  border: transparent;
+  border-radius: 2vw;
+  height: 3vw;
+  font-size: 1.5vw;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  width: 95%;
+  position: relative;
+  left: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar:hover {
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  filter: blur(60%);
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 3vw;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: #0aafe6;
+}
